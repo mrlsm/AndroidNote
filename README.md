@@ -4,10 +4,12 @@
 
 ## java 基础知识
 
-1. [java 关键字总结 -- 完成](https://github.com/mrlsm/Note/blob/master/java/Java%20%E5%85%B3%E9%94%AE%E5%AD%97%E6%80%BB%E7%BB%93.md)
-2. [基础知识点汇总 -- 持续更新](https://github.com/mrlsm/Note/blob/master/java/java%20%E7%9F%A5%E8%AF%86%E7%82%B9.md)
+1. [java 关键字总结 -- 完成](https://github.com/mrlsm/Note/blob/master/java/java_keyword.md)
+2. [基础知识点汇总 -- 持续更新](https://github.com/mrlsm/Note/blob/master/java/java_kownledge_point.md)
 
 ## 设计模式
+
+### [面向对象六大原则](https://github.com/mrlsm/Note/blob/master/designPatterns/six_principles.md)
 
 > 开始着手书写 计划 8.10号完成
 
