@@ -1,4 +1,6 @@
-# Note
+# Android 学习之旅
+ 
+> 同步更新至我的简书博客 [店_小二](https://www.jianshu.com/u/4f41fb3d2e5f)
 
 ## java 基础知识
 
