@@ -9,7 +9,9 @@
 
 ## 设计模式
 
-### [面向对象六大原则](https://github.com/mrlsm/Note/blob/master/designPatterns/six_principles.md)
+1. [面向对象六大原则](https://github.com/mrlsm/Note/blob/master/designPatterns/six_principles.md)
+2. 单例模式
+3. [建造者模式(Builder)](https://github.com/mrlsm/Note/blob/master/designPatterns/builder.md)
 
 > 开始着手书写 计划 8.10号完成
 
