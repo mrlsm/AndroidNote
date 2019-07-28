@@ -17,7 +17,7 @@
 
 ### UML 类图
 
-![类图](http://https://github.com/mrlsm/Note/blob/master/designPatterns/images/builder_uml.jpg)
+![类图](https://github.com/mrlsm/Note/blob/master/designPatterns/images/builder_uml.jpg)
 
 ### 举例
 
