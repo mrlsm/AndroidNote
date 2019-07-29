@@ -245,7 +245,7 @@ public class Singleton {
     }
 ```
 
-通过上面1~5的代码分析可以知道， Context的实现类为ComtextImpl类。我们继续跟踪到ContextImpl类。
+通过上面1~5的代码分析可以知道， Context的实现类为ContextImpl类。我们继续跟踪到ContextImpl类。
 ```
 class ContextImpl extends Context {
   
