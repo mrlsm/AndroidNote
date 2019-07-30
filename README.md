@@ -13,7 +13,8 @@
 2. [单例模式](https://github.com/mrlsm/Note/blob/master/designPatterns/singleton.md)
 3. [建造者模式(Builder)](https://github.com/mrlsm/Note/blob/master/designPatterns/builder.md)
 4. [原型模式](https://github.com/mrlsm/Note/blob/master/designPatterns/prototype.md)
-4. [工厂模式](https://github.com/mrlsm/Note/blob/master/designPatterns/factory.md)
+5. [工厂模式](https://github.com/mrlsm/Note/blob/master/designPatterns/factory.md)
+6. [策略模式](https://github.com/mrlsm/Note/blob/master/designPatterns/strategy.md)
 
 > 开始着手书写 计划 8.10号完成
 
