@@ -9,14 +9,15 @@
 
 ## 设计模式
 
+> 开始着手书写 计划 8.10号完成
+
 1. [面向对象六大原则](https://github.com/mrlsm/Note/blob/master/designPatterns/six_principles.md)
 2. [单例模式](https://github.com/mrlsm/Note/blob/master/designPatterns/singleton.md)
 3. [建造者模式(Builder)](https://github.com/mrlsm/Note/blob/master/designPatterns/builder.md)
 4. [原型模式](https://github.com/mrlsm/Note/blob/master/designPatterns/prototype.md)
 5. [工厂模式](https://github.com/mrlsm/Note/blob/master/designPatterns/factory.md)
 6. [策略模式](https://github.com/mrlsm/Note/blob/master/designPatterns/strategy.md)
-
-> 开始着手书写 计划 8.10号完成
+7. [责任链模式](https://github.com/mrlsm/Note/blob/master/designPatterns/iterator.md)
 
 ## java 与 android 内核
 
@@ -39,6 +40,7 @@
 ### 1. Activity相关
 
 1. [Intent 详解](https://github.com/mrlsm/Note/blob/master/android/activity/intent.md)
+2. [Android事件分发机制](http://gityuan.com/2015/09/19/android-touch/)
 
 ### 2. 自定义View
 
