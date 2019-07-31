@@ -15,10 +15,25 @@
 2. [单例模式](https://github.com/mrlsm/Note/blob/master/designPatterns/singleton.md)
 3. [建造者模式(Builder)](https://github.com/mrlsm/Note/blob/master/designPatterns/builder.md)
 4. [原型模式](https://github.com/mrlsm/Note/blob/master/designPatterns/prototype.md)
-5. [工厂模式](https://github.com/mrlsm/Note/blob/master/designPatterns/factory.md)
-6. [策略模式](https://github.com/mrlsm/Note/blob/master/designPatterns/strategy.md)
-7. [责任链模式](https://github.com/mrlsm/Note/blob/master/designPatterns/iterator.md)
-8. [解释器模式](https://github.com/mrlsm/Note/blob/master/designPatterns/interperter.md)
+5. [工厂方法模式](https://github.com/mrlsm/Note/blob/master/designPatterns/factory.md)
+6. [抽象工厂模式](https://github.com/mrlsm/Note/blob/master/designPatterns/factory.md)
+7. [策略模式](https://github.com/mrlsm/Note/blob/master/designPatterns/strategy.md)
+8. [责任链模式](https://github.com/mrlsm/Note/blob/master/designPatterns/iterator.md)
+9. [解释器模式](https://github.com/mrlsm/Note/blob/master/designPatterns/interperter.md)
+10. [命令模式](https://github.com/mrlsm/Note/blob/master/designPatterns/command.md)
+11. 观察者模式
+12. 备忘录模式
+13. 迭代器模式
+14. 模板方法模式
+15. 访问者模式
+16. 中介者模式
+17. 代理模式
+18. 组合模式
+19. 适配器模式
+20. 装饰模式
+21. 享元模式
+22. 外观模式
+23. 桥接模式
 
 ## java 与 android 内核
 
