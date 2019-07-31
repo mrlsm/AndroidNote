@@ -18,22 +18,49 @@
 5. [工厂模式](https://github.com/mrlsm/Note/blob/master/designPatterns/factory.md)
 6. [策略模式](https://github.com/mrlsm/Note/blob/master/designPatterns/strategy.md)
 7. [责任链模式](https://github.com/mrlsm/Note/blob/master/designPatterns/iterator.md)
+8. [解释器模式](https://github.com/mrlsm/Note/blob/master/designPatterns/interperter.md)
 
 ## java 与 android 内核
 
 ### 1. 线程池
 
+1. ThreadPool 源码与使用
+2. ansycTask 原理
+3. 线程切换原理
+4. RxJava 内核原理
+
 ### 2. 反射
+
+1. 反射的三种方式
+2. 获取构造器实例化对象
 
 ### 3. android类加载
 
+1. 动态代理模式
+2. ClassLoader 分析
+
 ### 4. 泛型
+
+1. 泛型的作用于实现
+2. 通配符泛型方法与嵌套
 
 ### 5. 虚拟机
 
+1. JVM
+2. 垃圾回收算法
+
 ### 6. 注解
 
+1. 常见注解
+2. 自定义 Annotation
+3. 反射读取注解信息与定义注解的注解
+4. retrofit 详解
+
 ### 7. 序列化
+
+1. Serializable 原理解析
+2. Parcelable 原理解析
+3. Json 基本原理
 
 ## app 开发框架体系
 
