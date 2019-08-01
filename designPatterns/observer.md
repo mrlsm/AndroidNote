@@ -14,7 +14,7 @@
 
 ![](https://github.com/mrlsm/Note/blob/master/designPatterns/images/observer_uml.jpg)
 
-由上图，命令模式 主要包含这几种角色：
+由上图，观察者模式 主要包含这几种角色：
 
 - **Subject**（被观察的对象接口）:规定ConcreteSubject的统一接口; 每个Subject可以有多个Observer；
 - **ConcreteSubject**（具体被观察对象）:维护对所有具体观察者的引用的列表；状态发生变化时会发送通知给所有注册的观察者。
@@ -24,11 +24,10 @@
 ### 优缺点
 - 优点：
     - 观察者与被观察者之间是抽象耦合，增加了系统灵活性和可扩展性。
-    - 
 - 缺点：
     - 如一个主题被大量观察者注册，则通知所有观察者会花费较高代价，如果某些观察者的响应方法被阻塞，整个通知过程即被阻塞，其它观察者不能及时被通知，一般考虑才有**异步**的方式
 
-### Android 源码中的解释器模式的实现
+### Android 源码中的观察者模式的实现
 
 ##### ListView
 
@@ -39,7 +38,8 @@ ListView 调用 setAdapter 方法，将一个观察者注入 Adapter 中维护�
 详情可见 [四大组件之BroadcastRecord](http://gityuan.com/2017/06/03/broadcast_record/)
 
 ##### 参考
-[《Android源码设计模式解析与实战》](https://book.douban.com/subject/26644935/)
+[《Android源码设计模式解析与实战》](https://book.douban.com/subject/26644935/)  
+                                                                   
 
 ##### 备注
 详细可见我的github [Note](https://github.com/mrlsm/Note)

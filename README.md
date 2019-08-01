@@ -11,6 +11,9 @@
 
 > 开始着手书写 计划 8.10号完成
 
+##### Android源码设计模式解析与实战完整版 pdf 下载
+链接：[百度网盘](https://pan.baidu.com/s/1AV5HMmsWY9XL7c7uIDil1A)   提取码：1beg 
+
 1. [面向对象六大原则](https://github.com/mrlsm/Note/blob/master/designPatterns/six_principles.md)
 2. [单例模式](https://github.com/mrlsm/Note/blob/master/designPatterns/singleton.md)
 3. [建造者模式(Builder)](https://github.com/mrlsm/Note/blob/master/designPatterns/builder.md)
@@ -22,7 +25,7 @@
 9. [解释器模式](https://github.com/mrlsm/Note/blob/master/designPatterns/interperter.md)
 10. [命令模式](https://github.com/mrlsm/Note/blob/master/designPatterns/command.md)
 11. [观察者模式](https://github.com/mrlsm/Note/blob/master/designPatterns/observer.md)
-12. 备忘录模式
+12. [备忘录模式](https://github.com/mrlsm/Note/blob/master/designPatterns/memento.md)
 13. 迭代器模式
 14. 模板方法模式
 15. 访问者模式
