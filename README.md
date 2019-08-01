@@ -21,7 +21,7 @@
 8. [责任链模式](https://github.com/mrlsm/Note/blob/master/designPatterns/iterator.md)
 9. [解释器模式](https://github.com/mrlsm/Note/blob/master/designPatterns/interperter.md)
 10. [命令模式](https://github.com/mrlsm/Note/blob/master/designPatterns/command.md)
-11. 观察者模式
+11. [观察者模式](https://github.com/mrlsm/Note/blob/master/designPatterns/observer.md)
 12. 备忘录模式
 13. 迭代器模式
 14. 模板方法模式
