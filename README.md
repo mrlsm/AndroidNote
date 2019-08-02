@@ -28,7 +28,7 @@
 12. [备忘录模式](https://github.com/mrlsm/Note/blob/master/designPatterns/memento.md)
 13. [迭代器模式](https://github.com/mrlsm/Note/blob/master/designPatterns/iterator.md)
 14. [模板方法模式](https://github.com/mrlsm/Note/blob/master/designPatterns/template.md)
-15. 访问者模式
+15. [访问者模式](https://github.com/mrlsm/Note/blob/master/designPatterns/visitor.md)
 16. 中介者模式
 17. 代理模式
 18. 组合模式

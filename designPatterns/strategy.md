@@ -15,9 +15,9 @@
 ![](https://github.com/mrlsm/Note/blob/master/designPatterns/images/strategy_uml.jpg)
 
 由上图，策略模式 主要包含三种角色：
-- 上下文角色（Context）：用来操作策略的上下文环境；
-- 抽象策略角色（Strategy）：规定策略或算法的行为；
-- 具体策略角色（ConcreteStrategy）：具体的策略或算法实现；
+- **Context**（上下文角色）：用来操作策略的上下文环境；
+- **Strategy**（抽象策略角色）：规定策略或算法的行为；
+- **ConcreteStrategy**（具体策略角色）：具体的策略或算法实现；
 
 ### 优缺点
 - 优点

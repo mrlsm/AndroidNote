@@ -15,8 +15,8 @@
 ![](https://github.com/mrlsm/Note/blob/master/designPatterns/images/responsibility_uml.jpg)
 
 由上图，责任链模式 主要包含两种角色：
-- Handler：抽象处理者角色，声明一个请求处理的方法，并在其中保持一个对下一个处理节点Handler对象的引用。
-- ConcreteHandler：具体处理者角色，对请求进行处理，如果不能处理则将该请求转发给下一个节点上的处理对象。
+- **Handler**：抽象处理者角色，声明一个请求处理的方法，并在其中保持一个对下一个处理节点Handler对象的引用。
+- **ConcreteHandler**：具体处理者角色，对请求进行处理，如果不能处理则将该请求转发给下一个节点上的处理对象。
 
 ### 优缺点
 - 优点：

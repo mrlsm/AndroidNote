@@ -16,9 +16,9 @@
 ![](https://github.com/mrlsm/Note/blob/master/designPatterns/images/state_uml.jpg)
 
 由上图，状态模式 主要包含三种角色：
-- Context：环境类，定义客户感兴趣的接口，维护一个State子类的实例，这个实例定义了对象的当前状态。
-- State：抽象状态类或状态接口，定义一个或者一组接口，表示该状态下的行为。
-- ConcreteStateA、ConcreteStateB：具体状态类，每一个具体的状态类实现抽象State中定义的接口，从而达到不同状态下的不同行为。
+- **Context**：环境类，定义客户感兴趣的接口，维护一个State子类的实例，这个实例定义了对象的当前状态。
+- **State**：抽象状态类或状态接口，定义一个或者一组接口，表示该状态下的行为。
+- **ConcreteStateA、ConcreteStateB**：具体状态类，每一个具体的状态类实现抽象State中定义的接口，从而达到不同状态下的不同行为。
 
 ### 优缺点
 - 优点：
