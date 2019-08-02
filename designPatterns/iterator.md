@@ -22,6 +22,95 @@
 - **Iterator**（抽象迭代器）角色：定义访问和遍历聚合元素的接口，通常包含 hasNext()、first()、next() 等方法。
 - **Concretelterator**（具体迭代器）角色：实现抽象迭代器接口中所定义的方法，完成对聚合对象的遍历，记录遍历的当前位置。
 
+#### 模式代码：
+
+迭代器接口：
+```
+public interface Iterator<T> {
+  /**
+   * 是否还有下一个元素
+   * @return true表示有，false表示没有
+   **/
+  boolean hasNext();
+  /**
+   * 返回当前位置的元素并将位置移至下一位
+   **/
+  T next();
+}
+```
+具体迭代器类：
+```
+public class ConcreteIterator<T> implements Iterator<T>{
+  private List<T> list;
+  private int cursor = 0;
+  public ConcreteIterator(List<T> list) {
+    this.list = list;
+  }
+  @Override
+  public boolean hasNext() {
+    return cursor != list.size();
+  }
+  @Override
+  public T next() {
+    T obj = null;
+    if (this.hasNext()) {
+      obj = this.list.get(cursor++);
+    }
+    return obj;
+  }
+}
+```
+容器接口：
+```
+public interface Aggregation<T> {
+  /**
+   * 添加一个元素
+   **/
+  void add(T obj);
+  /**
+   * 移除一个元素
+   **/
+  void remove(T obj);
+  /**
+   * 获取容器的迭代器
+   **/
+  Iterator<T> iterator();
+}
+```
+具体容器类：
+```
+public class ConcreteAggregation<T> implements Aggregation<T>{
+  private List<T> list = new ArrayList<>();
+  @Override
+  public void add(T obj) {
+    list.add(obj);
+  }
+  @Override
+  public void remove(T obj) {
+    list.remove(obj);
+  }
+  @Override
+  public Iterator<T> iterator() {
+    return new ConcreteIterator<>(list);
+  }
+}
+```
+客户类：
+```
+public class Client {
+  public static void main(String args[]) {
+    Aggregation<String> a = new ConcreteAggregation<>();
+    a.add("a");
+    a.add("b");
+    a.add("c");
+    Iterator<String> iterator = a.iterator();
+    while (iterator.hasNext()) {
+      System.out.print(iterator.next());
+    }
+  }
+}
+```
+
 ### 优缺点
 - 优点：
     - 支持对容器对象的多种遍历。弱化了容器类与遍历算法之间的关系。
