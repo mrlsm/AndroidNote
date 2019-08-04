@@ -30,7 +30,7 @@
 14. [模板方法模式](https://github.com/mrlsm/Note/blob/master/designPatterns/template.md)
 15. [访问者模式](https://github.com/mrlsm/Note/blob/master/designPatterns/visitor.md)
 16. [中介者模式](https://github.com/mrlsm/Note/blob/master/designPatterns/mediator.md)
-17. 代理模式
+17. [代理模式](https://github.com/mrlsm/Note/blob/master/designPatterns/proxy.md)
 18. 组合模式
 19. 适配器模式
 20. 装饰模式
