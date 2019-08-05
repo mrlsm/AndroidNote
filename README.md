@@ -31,7 +31,7 @@
 15. [访问者模式](https://github.com/mrlsm/Note/blob/master/designPatterns/visitor.md)
 16. [中介者模式](https://github.com/mrlsm/Note/blob/master/designPatterns/mediator.md)
 17. [代理模式](https://github.com/mrlsm/Note/blob/master/designPatterns/proxy.md)
-18. 组合模式
+18. [组合模式](https://github.com/mrlsm/Note/blob/master/designPatterns/composite.md)
 19. 适配器模式
 20. 装饰模式
 21. 享元模式
