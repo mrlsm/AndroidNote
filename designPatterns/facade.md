@@ -14,7 +14,7 @@
 
 ![](https://github.com/mrlsm/Note/blob/master/designPatterns/images/facade_uml.jpg)
 
-由上图，外观模式 主要包含这两种角色：
+由上图，外观模式 主要包含这三种角色：
 
 - **Client** : 客户端程序。
 - **Facade** : 对外的统一入口,即外观对象。

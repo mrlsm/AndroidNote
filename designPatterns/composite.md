@@ -13,7 +13,7 @@
 
 ![](https://github.com/mrlsm/Note/blob/master/designPatterns/images/composite_uml.jpg)
 
-由上图，组合模式 主要包含这两种角色：
+由上图，组合模式 主要包含这三种角色：
 
 - **Component**（组合部件）：它是一个抽象角色，为要组合的对象提供统一的接口。
 - **Leaf**（叶子）：在组合中表示子节点对象，叶子节点不能有子节点。

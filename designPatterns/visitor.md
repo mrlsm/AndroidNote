@@ -13,7 +13,7 @@
 
 ![](https://github.com/mrlsm/Note/blob/master/designPatterns/images/visitor_uml.jpg)
 
-由上图，访问者模式 主要包含这两种角色：
+由上图，访问者模式 主要包含这几种角色：
 
 - **Visitor**：接口或抽象类，定义了对每一个元素的访问行为，参数就是可访问的元素，方法个数理论上是个元素个数一样的。因此，访问者模式要求被访问的对象结构要稳定，如果经常增删元素，必然会导致频繁修改Visitor接口，就不适合用访问者模式了。
 - **ConcreteVisitor**：具体的访问者，定义具体的对每一个元素的具体访问行为。

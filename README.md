@@ -36,7 +36,7 @@
 20. 装饰模式
 21. 享元模式
 22. [外观模式](https://github.com/mrlsm/Note/blob/master/designPatterns/facade.md)
-23. 桥接模式
+23. [桥接模式](https://github.com/mrlsm/Note/blob/master/designPatterns/bridge.md)
 
 ## java 与 android 内核
 

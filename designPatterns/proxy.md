@@ -13,7 +13,7 @@
 
 ![](https://github.com/mrlsm/Note/blob/master/designPatterns/images/proxy_uml.jpg)
 
-由上图，代理模式 主要包含这两种角色：
+由上图，代理模式 主要包含这三种角色：
 
 - 抽象对象角色：声明了目标对象和代理对象的共同接口，这样一来在任何可以使用目标对象的地方都可以使用代理对象。
 - 目标对象角色：定义了代理对象所代表的目标对象。
