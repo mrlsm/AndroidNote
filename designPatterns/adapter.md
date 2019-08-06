@@ -13,7 +13,7 @@
 
 ![](https://github.com/mrlsm/Note/blob/master/designPatterns/images/adapter_uml.jpg)
 
-由上图，适配器模式 主要包含这两种角色：
+由上图，适配器模式 主要包含这三种角色：
 
 - **Target**(目标角色)：该角色定义把其它类转换为何种接口，也就是我们的期望接口。
 - **Adaptee**(源角色)：你想把谁转换成目标角色。
