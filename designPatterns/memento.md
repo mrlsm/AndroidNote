@@ -32,9 +32,3 @@
 ##### Activity 的状态保存
 
 当Activity不是正常方式退出，且Activity在随后的时间内被系统杀死之前会调用这两个方法让开发人员可以有机会存储Activity相关信息，且在下次返回Activity时恢复这些数据。通过这两个函数。开发人员能够在某些特殊场景下储存与界面相关的信息，提升用户体验。
-
-##### 参考
-[《Android源码设计模式解析与实战》](https://book.douban.com/subject/26644935/)
-
-##### 备注
-详细可见我的github [Note](https://github.com/mrlsm/Note)

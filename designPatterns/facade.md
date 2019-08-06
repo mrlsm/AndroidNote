@@ -118,11 +118,3 @@ class ContextImpl extends Context {
 比如我们要启动一个Activity的时候，我们调用的是startActivity方法，这个功能的内部实现实际上是Instrumentation完成的。ContextImpl封装了这个功能，使得用户根本不需要知晓Instrumentation相关的信息，直接使用startActivity即可完成相应的工作。其他的子系统功能也是类似的实现，比如启动Service和发送广播内部使用的是ActivityManagerNative等。ContextImpl的结构图如下 :
 
 ![](https://github.com/mrlsm/Note/blob/master/designPatterns/images/facade_ContextImpl.jpg)
-
-
-##### 参考
-[《Android源码设计模式解析与实战》](https://book.douban.com/subject/26644935/)  
-                                                                   
-
-##### 备注
-详细可见我的github [Note](https://github.com/mrlsm/Note)

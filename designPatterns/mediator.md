@@ -99,10 +99,3 @@ public class ConcreteColleagueB extends Colleague {
 ##### Keyguard解锁屏
 
 详细机制参考：[Android4.0 Keyguard解锁屏机制](https://www.jb51.net/article/131631.htm)
-
-##### 参考
-[《Android源码设计模式解析与实战》](https://book.douban.com/subject/26644935/)  
-                                                                   
-
-##### 备注
-详细可见我的github [Note](https://github.com/mrlsm/Note)

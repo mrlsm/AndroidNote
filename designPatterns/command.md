@@ -77,9 +77,3 @@ private abstract class HandlerParams {
 }
 
 ```
-
-##### 参考
-[《Android源码设计模式解析与实战》](https://book.douban.com/subject/26644935/)
-
-##### 备注
-详细可见我的github [Note](https://github.com/mrlsm/Note)

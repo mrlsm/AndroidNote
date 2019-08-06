@@ -70,10 +70,3 @@ ArrayList 和 HashSet 中的 iterator 方法
 Android 底层对 MediaPlayer 的实现
 
 MediaPlayer Factory分别会生成4个不同的MediaPlayer基类：StagefrightPlayer、NuPlayerDriver、MidiFile和TestPlayerStub，四者均继承于MediaPlayerBase。
-
-
-##### 参考
-[《Android源码设计模式解析与实战》](https://book.douban.com/subject/26644935/)
-
-##### 备注
-详细可见我的github [Note](https://github.com/mrlsm/Note)

@@ -46,10 +46,3 @@
 ##### AsyncTask
 
 在使用 AsyncTask 时，我们都知道把耗时操作放到 doInBackground 中，在 doInBackground 之前，如果想做一些初始化操作，可以把实现写在 onPreExecute 中，当 doInBackground 执行完后会执行 onPostExecute 方法，而我们只需要构建 AsyncTask 对象，然后执行 execute 方法。
-
-##### 参考
-[《Android源码设计模式解析与实战》](https://book.douban.com/subject/26644935/)  
-                                                                   
-
-##### 备注
-详细可见我的github [Note](https://github.com/mrlsm/Note)

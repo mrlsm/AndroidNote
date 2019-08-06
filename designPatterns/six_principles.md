@@ -50,9 +50,5 @@
 - 内容：最少知识原则，一个对象应该对其他对象有最少的了解，也就是一个类对自己依赖的类知道的越少越好。调用者或者依赖者只需要知道它需要的方法即可。
 - 好处：低耦合，高内聚
 
-##### 参考
-[《Android源码设计模式解析与实战》](https://book.douban.com/subject/26644935/)
+#### 参考
 [快速理解-设计模式六大原则](https://www.jianshu.com/p/807bc228dbc2)
-
-##### 备注
-详细可见我的github [Note](https://github.com/mrlsm/Note)

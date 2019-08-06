@@ -108,11 +108,3 @@ View obtainView(int position, boolean[] isScrap) {
 }  
 ```
 接下来在ListView中，onMeasure调用了obtainView来确定宽高，在扩展自己的方法来排列这些view。
-
-
-##### 参考
-[《Android源码设计模式解析与实战》](https://book.douban.com/subject/26644935/)  
-                                                                   
-
-##### 备注
-详细可见我的github [Note](https://github.com/mrlsm/Note)

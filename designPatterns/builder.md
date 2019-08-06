@@ -122,9 +122,3 @@ public class AlertDialog extends Dialog implements DialogInterface {
 - 缺点
 	- 会产生多余的Builder对象以及Director对象，消耗内存；
 	- 对象的构建过程暴露。
-
-##### 参考
-[《Android源码设计模式解析与实战》](https://book.douban.com/subject/26644935/)
-
-##### 备注
-详细可见我的github [Note](https://github.com/mrlsm/Note)

@@ -109,10 +109,3 @@ public interface ElementVisitor<R, P> {
 ```
 
 在ElementVisitor中定义了多种visit接口，每个接口处理一种元素类型，那么这就是典型的访问者模式。
-
-##### 参考
-[《Android源码设计模式解析与实战》](https://book.douban.com/subject/26644935/)  
-                                                                   
-
-##### 备注
-详细可见我的github [Note](https://github.com/mrlsm/Note)

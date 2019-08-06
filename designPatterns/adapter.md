@@ -35,10 +35,3 @@ ListView 等集合控件通过 Adapter 来获取 Item View 的数量、布局、
 这里的Adapter并不是经典的适配器模式么事对象适配器模式的示例。也是很好的体现了面向对象的一些基本原则。
 这里的Target角色就是View、Adapter角色就是将Item View 输出为 View 抽象的角色，Adaptee就是需要被处理的Item View。
 通过增加Adapter一层来将ItemView的操作抽象起来，ListView等集合视图通过Adapter对象获取Item的个数、数据、ItemView等，从而达到适配各种数据、各种Item视图的效果。因为ItemView和数据类型千变万化，Android的架构师将这种变化的部分交给用户来处理，通过getCount，getItem，getView等几个抽象出来，也就是将ItemView的构造过程交给用户来处理，灵活地运用了设配器的模式，达到了无限适配，拥抱变化的目的。
-
-##### 参考
-[《Android源码设计模式解析与实战》](https://book.douban.com/subject/26644935/)  
-                                                                   
-
-##### 备注
-详细可见我的github [Note](https://github.com/mrlsm/Note)

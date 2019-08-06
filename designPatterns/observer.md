@@ -36,10 +36,3 @@ ListView 调用 setAdapter 方法，将一个观察者注入 Adapter 中维护�
 ##### Broadcast
 
 详情可见 [四大组件之BroadcastRecord](http://gityuan.com/2017/06/03/broadcast_record/)
-
-##### 参考
-[《Android源码设计模式解析与实战》](https://book.douban.com/subject/26644935/)  
-                                                                   
-
-##### 备注
-详细可见我的github [Note](https://github.com/mrlsm/Note)

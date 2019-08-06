@@ -1,6 +1,6 @@
-# Android 学习之旅
- 
-> 同步更新至我的简书博客 [店_小二](https://www.jianshu.com/u/4f41fb3d2e5f)
+# Android 知识汇总
+
+> 一份 Android 程序员 知识汇总单。
 
 ## java 基础知识
 
@@ -8,8 +8,6 @@
 2. [基础知识点汇总 -- 持续更新](https://github.com/mrlsm/Note/blob/master/java/java_kownledge_point.md)
 
 ## 设计模式
-
-> 开始着手书写 计划 8.10号完成
 
 ### Android源码设计模式解析与实战完整版 pdf 下载
 链接：[百度网盘](https://pan.baidu.com/s/1AV5HMmsWY9XL7c7uIDil1A)   提取码：1beg 
@@ -32,9 +30,9 @@
 16. [中介者模式](https://github.com/mrlsm/Note/blob/master/designPatterns/mediator.md)
 17. [代理模式](https://github.com/mrlsm/Note/blob/master/designPatterns/proxy.md)
 18. [组合模式](https://github.com/mrlsm/Note/blob/master/designPatterns/composite.md)
-18. [适配器模式](https://github.com/mrlsm/Note/blob/master/designPatterns/adapter.md)
-20. 装饰模式
-21. 享元模式
+19. [适配器模式](https://github.com/mrlsm/Note/blob/master/designPatterns/adapter.md)
+20. [装饰模式](https://github.com/mrlsm/Note/blob/master/designPatterns/decorator.md)
+21. [享元模式](https://github.com/mrlsm/Note/blob/master/designPatterns/flyweight.md)
 22. [外观模式](https://github.com/mrlsm/Note/blob/master/designPatterns/facade.md)
 23. [桥接模式](https://github.com/mrlsm/Note/blob/master/designPatterns/bridge.md)
 

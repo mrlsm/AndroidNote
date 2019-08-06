@@ -31,9 +31,3 @@
 ViewGroup事件投递的递归调用就类似于一条责任链，一旦其寻找到责任者，那么将由责任者持有并消费掉该次事件，具体体现在View的onTouchEvent方法中返回值的设置，如果返回false，那么意味意味着当前View不会是该次事件的责任人将不会对其持有；如果返回true，此时View会持有该事件并不再向外传递。
 
 详情可查看：[Android事件分发机制](http://gityuan.com/2015/09/19/android-touch/)
-
-##### 参考
-[《Android源码设计模式解析与实战》](https://book.douban.com/subject/26644935/)
-
-##### 备注
-详细可见我的github [Note](https://github.com/mrlsm/Note)

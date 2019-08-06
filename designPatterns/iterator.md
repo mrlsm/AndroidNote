@@ -126,10 +126,3 @@ public class Client {
 ##### Cursor
 
 当我们使用SQLiteDatabase的query方法查询数据库时，会返回一个Cursor游标对象，该游标的实质就是一个具体的迭代器，我们可以使用它来遍历数据库查询所得的结果集。
-
-##### 参考
-[《Android源码设计模式解析与实战》](https://book.douban.com/subject/26644935/)  
-                                                                   
-
-##### 备注
-详细可见我的github [Note](https://github.com/mrlsm/Note)

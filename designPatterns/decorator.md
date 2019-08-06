@@ -12,7 +12,7 @@
 
 ![](https://github.com/mrlsm/Note/blob/master/designPatterns/images/decorator_uml.jpg)
 
-由上图，访问者模式 主要包含这几种角色：
+由上图，装饰模式 主要包含这几种角色：
 
 - **Component**（抽象构件）角色：给出一个抽象接口，以规范准备接收附加责任的对象。
 - **Concrete Component**（具体构件）角色：定义一个将要接收附加责任的类。
@@ -28,9 +28,10 @@
 	- 装饰模式会导致设计中出现许多小类，如果过度使用，会使程序变得很复杂。
 
 
-### Android 源码中的访问者模式的实现
+### Android 源码中的装饰模式的实现
 
 ##### 由Context抽象类扩展出的ContextWrapper
+
 继承结构如下图所示：
 ![](https://github.com/mrlsm/Note/blob/master/designPatterns/images/decorator_context.jpg)
 
@@ -40,10 +41,3 @@
 4. Android的界面组件Activity、服务组件Service以及应用基类Application都派生于ContextWrapper，它们可以通过重载来修改Context接口的实现。所以可以看出Activity、服务组件Service以及应用基类Application就是“装饰模式”里的具体装饰角色A、B、C。
 
 详情可见： [装饰模式在Android源码中的应用](https://www.cnblogs.com/yemeishu/archive/2012/12/30/2839489.html)
-
-##### 参考
-[《Android源码设计模式解析与实战》](https://book.douban.com/subject/26644935/)  
-                                                                   
-
-##### 备注
-详细可见我的github [Note](https://github.com/mrlsm/Note)

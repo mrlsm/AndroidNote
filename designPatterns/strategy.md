@@ -32,10 +32,3 @@
 插值器（TimeInterpolator） 
 对Animation对象设置不同的插值器就可以实现不同的动态效果。
 LinearInterpolator、AccelerateInterpolator、CycleInterpolator等实现Interpolator，通过getInterpolator（float input）获取当前的时间百分比，以此来计算动画的属性值。
-
-
-##### 参考
-[《Android源码设计模式解析与实战》](https://book.douban.com/subject/26644935/)
-
-##### 备注
-详细可见我的github [Note](https://github.com/mrlsm/Note)

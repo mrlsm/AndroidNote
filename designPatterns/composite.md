@@ -37,10 +37,3 @@ Android源码中View是一个类（不是抽象类，不是接口），即我们
 ViewGroup实现了一个叫ViewManager的接口，ViewGroup实现这个接口的方法，所有就有了管理View的能力。
 
 那么Google的开发者为什么要这么设计Android的View体系呢？组合模式可以让高层模块忽略了层次的差异，方便对整个层次结构进行控制。比如我们要向ViewGoup添加一个TextView或者添加一个LinearLayout，对这个ViewGroup来说是一样的。
-
-##### 参考
-[《Android源码设计模式解析与实战》](https://book.douban.com/subject/26644935/)  
-                                                                   
-
-##### 备注
-详细可见我的github [Note](https://github.com/mrlsm/Note)
