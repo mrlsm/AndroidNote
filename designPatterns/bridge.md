@@ -37,7 +37,7 @@
 
 ### Android 源码中的桥接模式的实现
 
-##### ListView和BaseAdapter
+##### ListView 和 BaseAdapter
 
 首先ListAdapter.java：
 ```
