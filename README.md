@@ -100,3 +100,10 @@
 ### 3. 屏幕适配
 
 ### 4. 代码质量调优
+
+### 开源框架剖析
+
+- rxjava + retrofit2
+    - [rxjava剖析](https://github.com/mrlsm/Note/blob/master/android/lib/rxjava.md)
+- dagger2
+- Butterknife
