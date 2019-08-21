@@ -40,10 +40,9 @@
 
 ### 1. 线程池
 
-1. ThreadPool 源码与使用
-2. ansycTask 原理
-3. 线程切换原理
-4. RxJava 内核原理
+1. [ThreadPool 源码与使用](https://juejin.im/post/5bf281356fb9a049ca36f2e5)
+2. [ansycTask 原理](https://blog.csdn.net/iispring/article/details/50670388)
+3. [rxjava 详解 系列博客](https://github.com/mrlsm/Note/blob/master/android/lib/rxjava.md)
 
 ### 2. 反射
 
@@ -100,10 +99,3 @@
 ### 3. 屏幕适配
 
 ### 4. 代码质量调优
-
-### 开源框架剖析
-
-- rxjava + retrofit2
-    - [rxjava 详解 系列博客](https://github.com/mrlsm/Note/blob/master/android/lib/rxjava.md)
-- dagger2
-- Butterknife
