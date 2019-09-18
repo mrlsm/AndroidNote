@@ -46,13 +46,14 @@
 
 ### 2. 反射
 
-1. 反射的三种方式
-2. 获取构造器实例化对象
+1. [反射详解](https://juejin.im/post/598ea9116fb9a03c335a99a4)
 
 ### 3. android类加载
 
 1. 动态代理模式
+    - [动态代理模式解析](https://juejin.im/post/5a99048a6fb9a028d5668e62)
 2. ClassLoader 分析
+    - [ClassLoader详解](https://blog.csdn.net/briblue/article/details/54973413)
 
 ### 4. 泛型
 
@@ -99,3 +100,8 @@
 ### 3. 屏幕适配
 
 ### 4. 代码质量调优
+
+## 其他
+
+1. [Android Studio 小技巧/快捷键 合集](https://jaeger.itscoder.com/android/2016/02/14/android-studio-tips.html)
+1. [Android libs 大集合](https://github.com/XXApple/AndroidLibs)
