@@ -50,33 +50,34 @@
 
 ### 3. android类加载
 
-1. 动态代理模式
-    - [动态代理模式解析](https://juejin.im/post/5a99048a6fb9a028d5668e62)
-2. ClassLoader 分析
-    - [ClassLoader详解](https://blog.csdn.net/briblue/article/details/54973413)
+1. [动态代理模式解析](https://juejin.im/post/5a99048a6fb9a028d5668e62)
+2. [ClassLoader详解](https://blog.csdn.net/briblue/article/details/54973413)
 
 ### 4. 泛型
 
-1. 泛型的作用于实现
-2. 通配符泛型方法与嵌套
+1. [泛型的理解](https://blog.csdn.net/u011240877/article/details/53545041)
+2. [java 泛型详解(通配符等)](https://blog.csdn.net/i10630226/article/details/47112007)
 
 ### 5. 虚拟机
 
 1. JVM
+    - [jvm知识详解](https://zhuanlan.zhihu.com/p/34426768)
+    - [深入理解Java虚拟机：JVM高级特性与最佳实践](https://book.douban.com/subject/24722612/)
 2. 垃圾回收算法
+    - [动画解析](https://www.infoq.cn/article/2017/03/garbage-collection-algorithm)
+    - [JVM垃圾回收详解](https://juejin.im/post/5b85ea54e51d4538dd08f601)
 
 ### 6. 注解
 
-1. 常见注解
-2. 自定义 Annotation
-3. 反射读取注解信息与定义注解的注解
-4. retrofit 详解
+1. [深入理解Java注解类型](https://blog.csdn.net/javazejian/article/details/71860633)
+2. [java 注解基本原理](https://juejin.im/post/5b45bd715188251b3a1db54f)
+3. [Retrofit 2.0 使用教程](https://blog.csdn.net/carson_ho/article/details/73732076)
+4. [Retrofit 源码解析](https://blog.piasy.com/2016/06/25/Understand-Retrofit/index.html)
 
 ### 7. 序列化
 
-1. Serializable 原理解析
-2. Parcelable 原理解析
-3. Json 基本原理
+1. [Serializable 原理解析](https://juejin.im/post/590bfc00ac502e006cdd2886)
+2. [Parcelable 原理解析](https://juejin.im/post/5a3b24ab6fb9a04515440bd7)
 
 ## app 开发框架体系
 
