@@ -12,29 +12,7 @@
 ### Android源码设计模式解析与实战完整版 pdf 下载
 链接：[百度网盘](https://pan.baidu.com/s/1AV5HMmsWY9XL7c7uIDil1A)   提取码：1beg 
 
-1. [面向对象六大原则](https://github.com/mrlsm/Note/blob/master/designPatterns/six_principles.md)
-2. [单例模式](https://github.com/mrlsm/Note/blob/master/designPatterns/singleton.md)
-3. [建造者模式(Builder)](https://github.com/mrlsm/Note/blob/master/designPatterns/builder.md)
-4. [原型模式](https://github.com/mrlsm/Note/blob/master/designPatterns/prototype.md)
-5. [工厂方法模式](https://github.com/mrlsm/Note/blob/master/designPatterns/factory.md)
-6. [抽象工厂模式](https://github.com/mrlsm/Note/blob/master/designPatterns/factory.md)
-7. [策略模式](https://github.com/mrlsm/Note/blob/master/designPatterns/strategy.md)
-8. [责任链模式](https://github.com/mrlsm/Note/blob/master/designPatterns/responsibility.md)
-9. [解释器模式](https://github.com/mrlsm/Note/blob/master/designPatterns/interperter.md)
-10. [命令模式](https://github.com/mrlsm/Note/blob/master/designPatterns/command.md)
-11. [观察者模式](https://github.com/mrlsm/Note/blob/master/designPatterns/observer.md)
-12. [备忘录模式](https://github.com/mrlsm/Note/blob/master/designPatterns/memento.md)
-13. [迭代器模式](https://github.com/mrlsm/Note/blob/master/designPatterns/iterator.md)
-14. [模板方法模式](https://github.com/mrlsm/Note/blob/master/designPatterns/template.md)
-15. [访问者模式](https://github.com/mrlsm/Note/blob/master/designPatterns/visitor.md)
-16. [中介者模式](https://github.com/mrlsm/Note/blob/master/designPatterns/mediator.md)
-17. [代理模式](https://github.com/mrlsm/Note/blob/master/designPatterns/proxy.md)
-18. [组合模式](https://github.com/mrlsm/Note/blob/master/designPatterns/composite.md)
-19. [适配器模式](https://github.com/mrlsm/Note/blob/master/designPatterns/adapter.md)
-20. [装饰模式](https://github.com/mrlsm/Note/blob/master/designPatterns/decorator.md)
-21. [享元模式](https://github.com/mrlsm/Note/blob/master/designPatterns/flyweight.md)
-22. [外观模式](https://github.com/mrlsm/Note/blob/master/designPatterns/facade.md)
-23. [桥接模式](https://github.com/mrlsm/Note/blob/master/designPatterns/bridge.md)
+1. [设计模式汇总](https://github.com/mrlsm/Note/blob/master/designPatterns/design_patterns.md)
 
 ## java 与 android 内核
 
@@ -105,4 +83,6 @@
 ## 其他
 
 1. [Android Studio 小技巧/快捷键 合集](https://jaeger.itscoder.com/android/2016/02/14/android-studio-tips.html)
-1. [Android libs 大集合](https://github.com/XXApple/AndroidLibs)
+2. [Android libs 大集合](https://github.com/XXApple/AndroidLibs)
+3. [设计思路来源，资源汇总](https://www.seeseed.com/)
+4. [设计师资源汇总](https://github.com/jobbole/awesome-design-cn)
