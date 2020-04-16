@@ -14,6 +14,12 @@
 
 1. [设计模式汇总](https://github.com/mrlsm/Note/blob/master/designPatterns/design_patterns.md)
 
+## LeetCode
+
+> 刷了一个月发现一个非常好的总结：[手把手撕LeetCode题目](https://github.com/labuladong/fucking-algorithm)
+
+[leetcode 热题 Top 100](https://github.com/mrlsm/Note/blob/master/leetcode/hot_100.md)
+
 ## java 与 android 内核
 
 ### 1. 线程池
