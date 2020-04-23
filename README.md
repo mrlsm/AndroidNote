@@ -73,3 +73,7 @@
 1. [Android Studio 小技巧/快捷键 合集](https://jaeger.itscoder.com/android/2016/02/14/android-studio-tips.html)
 2. [设计思路来源，资源汇总](https://www.seeseed.com/)
 3. [设计师资源汇总](https://github.com/jobbole/awesome-design-cn)
+4. [git 运用](https://learngitbranching.js.org/?locale=zh_CN)
+5. [正则表达式 练习平台](https://regexone.com/)
+6. [正则表达式 测试平台](https://regexr.com/)
+7. [SQL 练习平台](https://sqlzoo.net/)
