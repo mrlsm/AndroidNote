@@ -106,6 +106,34 @@ public class Demo {
     }
 
     /**
+     * 226. 翻转二叉树
+     */
+    public TreeNode invertTree(TreeNode root) {
+        if (root != null) {
+            TreeNode right = invertTree(root.right);
+            TreeNode left = invertTree(root.left);
+            root.left = right;
+            root.right = left;
+        }
+        return root;
+    }
+
+    /**
+     * 538. 把二叉搜索树转换为累加树
+     */
+    private int sum = 0;
+
+    public TreeNode convertBST(TreeNode root) {
+        if (root != null) {
+            convertBST(root.left);
+            sum += root.val;
+            root.val = sum;
+            convertBST(root.right);
+        }
+        return root;
+    }
+
+    /**
      * 101. 对称二叉树
      */
     public boolean isSymmetric(TreeNode root) {
