@@ -7,6 +7,25 @@ import java.util.Map;
  */
 public class Demo {
 
+    public class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+        }
+    }
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int x) {
+            val = x;
+        }
+    }
+
     private static class InstanceHolder {
         private static final Demo INSTANCE = new Demo();
     }
@@ -40,16 +59,6 @@ public class Demo {
             map.put(nums[i], i);
         }
         throw new IllegalArgumentException("No two sum solution");
-    }
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
     }
 
     /**
@@ -140,6 +149,9 @@ public class Demo {
         return isSame(root, root);
     }
 
+    /**
+     * 543. 二叉树的直径
+     */
     private boolean isSame(TreeNode left, TreeNode right) {
         if (left == null && right == null) return true;
         if (left == null || right == null) return false;
@@ -163,5 +175,33 @@ public class Demo {
         int R = depth(node.right);
         ans = Math.max(ans, L + R + 1);
         return Math.max(L, R) + 1;
+    }
+
+    /**
+     * 206. 反转链表
+     */
+    //迭代法
+    public ListNode reverseList(ListNode head) {
+        ListNode pre = null;
+        ListNode cur = head;
+        while (cur != null) {
+            ListNode next = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = next;
+        }
+        return pre;
+    }
+
+    //尾递归
+    public ListNode reverseList(ListNode head) {
+        return reverse(null, head);
+    }
+
+    private static ListNode reverse(ListNode pre, ListNode cur) {
+        if (cur == null) return pre;
+        ListNode next = cur.next;
+        cur.next = pre;
+        return reverse(cur, next);
     }
 }
