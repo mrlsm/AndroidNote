@@ -181,7 +181,7 @@ public class Demo {
      * 206. 反转链表
      */
     //迭代法
-    public ListNode reverseList(ListNode head) {
+    public ListNode reverseList1(ListNode head) {
         ListNode pre = null;
         ListNode cur = head;
         while (cur != null) {
@@ -194,7 +194,7 @@ public class Demo {
     }
 
     //尾递归
-    public ListNode reverseList(ListNode head) {
+    public ListNode reverseList2(ListNode head) {
         return reverse(null, head);
     }
 
@@ -203,5 +203,30 @@ public class Demo {
         ListNode next = cur.next;
         cur.next = pre;
         return reverse(cur, next);
+    }
+
+    /**
+     * 33. 搜索旋转排序数组
+     */
+    public int search(int[] nums, int target) {
+        int len = nums.length;
+        int left = 0, right = len - 1;
+        while (left <= right) {
+            int mid = (left + right) / 2;
+            if (nums[mid] == target)
+                return mid;
+            else if (nums[mid] < nums[right]) {
+                if (nums[mid] < target && target <= nums[right])
+                    left = mid + 1;
+                else
+                    right = mid - 1;
+            } else {
+                if (nums[left] <= target && target < nums[mid])
+                    right = mid - 1;
+                else
+                    left = mid + 1;
+            }
+        }
+        return -1;
     }
 }
