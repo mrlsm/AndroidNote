@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -272,5 +274,22 @@ public class Demo {
             cur.next = l1;
         }
         return dummyHead.next;
+    }
+
+    /**
+     * 448. 找到所有数组中消失的数字
+     */
+    public List<Integer> findDisappearedNumbers(int[] nums) {
+        List<Integer> list = new ArrayList<>();
+        HashMap<Integer, Boolean> map = new HashMap<>();
+        for (int num : nums) {
+            map.put(num, true);
+        }
+        for (int i = 1; i <= nums.length; i++) {
+            if (!map.containsKey(i)) {
+                list.add(i);
+            }
+        }
+        return list;
     }
 }
