@@ -292,4 +292,28 @@ public class Demo {
         }
         return list;
     }
+
+    /**
+     * 437. 路径总和 III
+     */
+    private int all = 0;
+
+    public int pathSum(TreeNode root, int sum) {
+        if (root == null) return 0;
+        Sum(root, sum);
+        pathSum(root.left, sum);
+        pathSum(root.right, sum);
+        return all;
+    }
+
+
+    public void Sum(TreeNode root, int sum) {
+        if (root == null) return;
+        sum -= root.val;
+        if (sum == 0) {
+            all++;
+        }
+        Sum(root.left, sum);
+        Sum(root.right, sum);
+    }
 }
