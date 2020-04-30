@@ -15,7 +15,7 @@
 
 [leetcode 热题 Top 100](https://github.com/mrlsm/Note/blob/master/leetcode/hot_100.md)
 
-### java 与 android 内核
+### java & android
 
 #### 1. 基础知识
 
