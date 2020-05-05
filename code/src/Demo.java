@@ -348,6 +348,7 @@ public class Demo {
      * 98. 验证二叉搜索树
      */
     long cur = Long.MIN_VALUE;
+
     public boolean isValidBST(TreeNode root) {
         if (root == null) {
             return true;
@@ -363,5 +364,96 @@ public class Demo {
         cur = root.val;
         // 访问右子树
         return isValidBST(root.right);
+    }
+
+    /**
+     * 2. 两数相加
+     */
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode results = new ListNode(0);
+        ListNode pre = results;
+        int carry = 0;
+
+        while (l1 != null || l2 != null) {
+            int a = 0;
+            int b = 0;
+            if (l1 != null) {
+                a = l1.val;
+                l1 = l1.next;
+            }
+            if (l2 != null) {
+                b = l2.val;
+                l2 = l2.next;
+            }
+
+            int sum = a + b + carry;
+            pre.next = new ListNode(sum % 10);
+            carry = sum / 10;
+            pre = pre.next;
+        }
+
+        if (carry > 0) {
+            pre.next = new ListNode(carry);
+        }
+        return results.next;
+    }
+
+    /**
+     * 3. 无重复字符的最长子串
+     */
+    public int lengthOfLongestSubstring(String s) {
+        if (s.length() == 0) return 0;
+        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+        int max = 0;
+        int left = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if (map.containsKey(s.charAt(i))) {
+                left = Math.max(left, map.get(s.charAt(i)) + 1);
+            }
+            map.put(s.charAt(i), i);
+            max = Math.max(max, i - left + 1);
+        }
+        return max;
+    }
+
+    /**
+     * 4. 寻找两个有序数组的中位数
+     */
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        int m = nums1.length;
+        int n = nums2.length;
+        int len = m + n;
+        int left = -1, right = -1;
+        int aStart = 0, bStart = 0;
+        for (int i = 0; i <= len / 2; i++) {
+            left = right;
+            if (aStart < m && (bStart >= n || nums1[aStart] < nums2[bStart])) {
+                right = nums1[aStart++];
+            } else {
+                right = nums2[bStart++];
+            }
+        }
+        if ((len & 1) == 0)
+            return (left + right) / 2.0;
+        else
+            return right;
+    }
+
+    /**
+     * 5. 最长回文子串
+     */
+    public String longestPalindrome(String s) {
+        int n = s.length();
+        String res = "";
+        boolean[] P = new boolean[n];
+        for (int i = n - 1; i >= 0; i--) {
+            for (int j = n - 1; j >= i; j--) {
+                P[j] = s.charAt(i) == s.charAt(j) && (j - i < 3 || P[j - 1]);
+                if (P[j] && j - i + 1 > res.length()) {
+                    res = s.substring(i, j + 1);
+                }
+            }
+        }
+        return res;
     }
 }
