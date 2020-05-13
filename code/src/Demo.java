@@ -456,4 +456,17 @@ public class Demo {
         }
         return res;
     }
+
+    public int maxPathSum(TreeNode root) {
+        maxSum(root);
+        return num;
+    }
+    private int num = 0;
+    private int maxSum(TreeNode root) {
+        if (root == null) return 0;
+        int leftMax = Math.max(maxSum(root.left), 0);
+        int rightMax = Math.max(maxSum(root.right), 0);
+        num = Math.max(num, leftMax + rightMax + root.val);
+        return root.val + Math.max(leftMax, rightMax);
+    }
 }
