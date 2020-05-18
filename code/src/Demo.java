@@ -461,12 +461,29 @@ public class Demo {
         maxSum(root);
         return num;
     }
+
     private int num = 0;
+
     private int maxSum(TreeNode root) {
         if (root == null) return 0;
         int leftMax = Math.max(maxSum(root.left), 0);
         int rightMax = Math.max(maxSum(root.right), 0);
         num = Math.max(num, leftMax + rightMax + root.val);
         return root.val + Math.max(leftMax, rightMax);
+    }
+
+    public int maxProduct(int[] nums) {
+        int max = Integer.MIN_VALUE, imax = 1, imin = 1;
+        for (int value : nums) {
+            if (value < 0) {
+                int tmp = imax;
+                imax = imin;
+                imin = tmp;
+            }
+            imax = Math.max(imax * value, value);
+            imin = Math.min(imin * value, value);
+            max = Math.max(max, imax);
+        }
+        return max;
     }
 }
